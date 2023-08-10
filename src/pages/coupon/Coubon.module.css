@@ -1,0 +1,112 @@
+.Customer_edit{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+   }
+  
+   .Customer_edit > div{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    row-gap: 5px;
+   }
+  
+   .Customer_edit > div>label{
+    color: #8b909a;
+    font-weight: bold;
+   }
+  
+   .Customer_edit > div > input{
+  border: none;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.06);
+  padding: 10px 10px;
+  outline: none;
+  }
+  
+  .Customer_edit  > div >button{
+    background-color: blue;
+    padding: 10px ;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  
+  .Customer_edit  > div >button:hover {
+    background-color: darkblue;
+    transition: background-color 0.3s ease;
+  }
+
+
+  
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+   
+  }
+  
+  .table th,
+  .table td {
+    /* padding: 8px; */
+    /* border: 1px solid #ccc; */
+    border-bottom: 1px solid #eae8ee;
+    padding: 17px 25px;
+    /* cursor: pointer; */
+ 
+  }
+  
+  .table thead {
+    /* background-color: #f0f0f0; */
+    color: #8b909a;
+  }
+  
+  .table th {
+    text-align: left;
+  }
+  
+  .table td {
+    color: #23272e;
+    font-size: 15px;
+  }
+  
+  /* .table tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    } */
+  .table > tbody > tr > td:nth-child(6) > button {
+    background-color: #f8edca;
+    padding: 6px 10px;
+    color: #ffc600;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .table > tbody > tr > td:nth-child(7) > a {
+    color: #0f60ff;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .table > tbody > tr > td:nth-child(7) > a:hover {
+    color: blue;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .add_coubon > button{
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+   }

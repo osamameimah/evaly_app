@@ -1,0 +1,41 @@
+ 
+.Add_admin{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    }
+  
+   .Add_admin > div{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    row-gap: 5px;
+   }
+  
+   .Add_admin > div>label{
+    color: #8b909a;
+    font-weight: bold;
+   }
+  
+   .Add_admin > div > input{
+  border: none;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.06);
+  padding: 10px 10px;
+  outline: none;
+  }
+  
+  .Add_admin  > div >button{
+    background-color: blue;
+    padding: 10px ;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  
+  .Add_admin  > div >button:hover {
+    background-color: darkblue;
+    transition: background-color 0.3s ease;
+  }

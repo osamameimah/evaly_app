@@ -1,0 +1,19 @@
+/* .search{
+display: flex;
+justify-content: space-between;
+align-items: center;
+} */
+
+.searchAndFilter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .searchAndFilter {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}

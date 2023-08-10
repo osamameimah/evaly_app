@@ -1,0 +1,177 @@
+/* .Brand_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+} */
+
+.Brand_items > .Brand_item {
+  display: flex;
+  background-color: white;
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  padding: 24px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.Brand_item > span:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Brand_oparation {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  position: absolute;
+  bottom: 20px;
+  transition: opacity 0.3s;
+}
+
+.Brand_oparation > button:first-child {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.Brand_oparation > button:last-child {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.Brand_item:hover .Brand_oparation {
+  display: flex;
+  opacity: 1;
+}
+
+.Brand_items {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Brand_items > .Brand_item {
+  display: flex;
+  background-color: white;
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+  padding: 24px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.Brand_item > span:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Brand_oparation {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  position: absolute;
+  bottom: 20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn1 {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn2 {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.Brand_item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 237, 237, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.Brand_item:hover::before {
+  opacity: 1;
+}
+
+.Add_brand > a > button {
+  background-color: blue;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 4px;
+}
+
+
+.Brand_edit{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+   }
+  
+   .Brand_edit > div{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    row-gap: 5px;
+   }
+  
+   .Brand_edit > div>label{
+    color: #8b909a;
+    font-weight: bold;
+   }
+  
+   .Brand_edit > div > input{
+  border: none;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.06);
+  padding: 10px 10px;
+  outline: none;
+  }
+  
+  .Brand_edit  > div >button{
+    background-color: blue;
+    padding: 10px ;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  
+  .Brand_edit  > div >button:hover {
+    background-color: darkblue;
+    transition: background-color 0.3s ease;
+  }

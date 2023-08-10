@@ -1,0 +1,96 @@
+.status > ul {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #8b909a;
+}
+
+.status > ul > li {
+  padding: 8px 20px;
+  list-style: none;
+}
+
+.status > ul > li > a {
+  color: #8b909a;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.operation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.operation-right {
+  /* background-color: red; */
+}
+
+.search {
+  position: relative;
+}
+.search > input {
+  padding: 8px 16px;
+  border: none;
+  background-color: white;
+  outline: none;
+  border-radius: 4px;
+  position: relative;
+}
+
+.search > img {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.operation > .filter > button {
+  padding: 11px 16px;
+  border: none;
+  background-color: white;
+  color: #8b909a;
+  font-size: 15px;
+}
+ 
+ 
+.Customer_edit{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+ }
+
+ .Customer_edit > div{
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  row-gap: 5px;
+ }
+
+ .Customer_edit > div>label{
+  color: #8b909a;
+  font-weight: bold;
+ }
+
+ .Customer_edit > div > input{
+border: none;
+box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.06);
+padding: 10px 10px;
+outline: none;
+}
+
+.Customer_edit  > div >button{
+  background-color: blue;
+  padding: 10px ;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  outline: none;
+}
+
+
+.Customer_edit  > div >button:hover {
+  background-color: darkblue;
+  transition: background-color 0.3s ease;
+}
+
+

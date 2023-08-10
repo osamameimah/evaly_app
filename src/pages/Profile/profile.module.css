@@ -1,0 +1,45 @@
+.ChangePassword{
+display: flex;
+flex-direction: column;
+row-gap: 50px;
+}
+
+.form_control{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+}
+
+.form_control > label{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(120, 128, 134);
+}
+
+.form_control > input{
+padding: 10px ;
+outline: none;
+border: navajowhite;
+max-width: 100%;
+box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+
+}
+
+.form_control > input::placeholder{
+color: rgb(177, 194, 194);
+}
+
+.ChangePassword > button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    width: 500px;
+    outline: none;
+
+}
+
+.ChangePassword > button:hover {
+    background-color: darkblue;
+    transition: background-color 0.3s ease;
+}
